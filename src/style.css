@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color:#344955;
+    
+  }
+  
+  .main_container {
+    display: flex;
+    height: 1000px;
+  }
+  
+  .container_left
+  {
+    margin-left: 400px;
+  }
+  .container_left,
+  .container_right {
+    padding: 30px;
+    margin-top: 200px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #E1F7F5;
+  }
+  
+  .projects,
+  .todos {
+    margin-top: 30px;
+  }
+  
+  .projectinput {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+
+  
+  .submitbutton,
+  .todo_buttons {
+    font-size: 18px;
+    background-color: #76ABAE;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .projecttab,
+  .todotab {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #35374B;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .projectclick {
+    cursor: pointer;
+  }
+  
+  .selected {
+   
+    background-color: #78A083; 
+    border-radius: 5px; 
+  }
+  
+  .deletebuttonpj,
+  .deletebutton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+  }
+  
+  
+  
+  .todo-form {
+    margin: 30px 0;
+    padding: 20px;
+  }
+  
+  .todo-form input[type="text"],
+  .todo-form input[type="date"],
+  .todo-form input[type="number"],
+  .todo-form button[type="submit"] {
+    display: block;
+    width:400px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    margin-left: -20px;
+    border-radius: 8px;
+  }
+  
+  .todo-form button[type="submit"] {
+    background-color: #76ABAE;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .edit-form {
+    margin: 30px 0;
+    padding: 20px;
+  }
+  
+  .container_left {
+    width: 30%;
+  }
+  
+  .container_right {
+    width: 70%;
+  }
